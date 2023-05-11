@@ -1,0 +1,15 @@
+.cards {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+img{
+    width: fit-content;
+}
+
+.wrap {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
