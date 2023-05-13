@@ -1,19 +1,48 @@
 body{
     margin:0;
     padding:0;
-    font-family: "Montserrat", sans-serif;
     
   }
 
 .Header {
     display: grid;
     grid-template-columns: auto auto auto;
+
 }
-.Header h2 {
+
+.Heading{
+    line-height: 0%;
+}
+
+.Heading h2 {
     text-align: center;
-    align-content: center;
-    padding-top: 3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #43a9ff;
+    font-size: 45px;
+    font-style:normal;
+    padding-top: 0.25em;
+    
+}
+
+.circle{
+    position:absolute;
+    border-radius: 85%;
+    box-shadow: 0 0 65px #dce2e9;
+    height: 370px;
+    margin-top: -207px;
+    width: 370px;
+   
+    left: 545px;
+    
+    
+}
+
+.Heading p {
+    text-align: center;
     font-family: "Montserrat";
+    color: #99a0a4;
+    
+    
 }
 
 .menu{

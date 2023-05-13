@@ -18,6 +18,12 @@ body{
     align-self: center;
 }
 
+.image1 img {
+
+    width: 70%;
+    height: auto;
+}
+
 .image{
     background-image: url(assets/images/sn1-bg.png);
     align-content: center;
@@ -25,11 +31,29 @@ body{
     align-self: center;
 }
 
+.image img {
+
+    width: 65%;
+    height: auto;
+}
 
 
 .wrap {
-    text-align: center;
+    text-align: justify;
     align-self: center;
-    align-items: center;
+    padding-left: 12em;
+    
+    
 }
 
+.wrap h2 {
+
+    color:#5fabd7;
+    
+}
+
+.wrap p {
+
+    color:#adb0b1;
+    
+}

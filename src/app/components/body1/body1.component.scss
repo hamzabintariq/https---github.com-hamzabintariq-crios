@@ -8,18 +8,39 @@
 .heading {
     text-align: center;
     align-content: baseline;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1em;
     
 }
 
 .detail{
     text-align: center;
     padding-bottom: 60px;
+    color: #99a0a4;
 }
 
 .btn{
     text-align: center;
     align-self: center;
     
+    
+}
+
+.btn button{
+    background-color: white;
+    color:#5fabd7;
+
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 0 65px #dae4ef;
+    color: #43a9ff;
+    font-size: 14px;
+    height: 51px;
+    line-height: 18px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 229px;
 }
 
 .img-background img {

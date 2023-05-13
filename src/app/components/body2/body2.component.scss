@@ -1,12 +1,14 @@
 h2{
     text-align: center;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
+    font-size: 45px;
 }
 
 .cards {
 
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding-bottom: 5em;
     
 }
 
@@ -17,10 +19,35 @@ h2{
     align-items: center;
     align-self: center;
     text-align: center;
+    
+
 }
 
 .BTN{
     align-items: center;
     text-align: center;
-    padding-top: 7em;
+    padding-bottom: 5em;
+    
+    
+    }
+
+.BTN button{
+    background-color: white;
+
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 0 65px #dae4ef;
+    color: #43a9ff;
+    font-size: 14px;
+    height: 51px;
+    line-height: 18px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 229px;
+}
+
+
+p {
+
+    color:rgb(154, 158, 158);
 }

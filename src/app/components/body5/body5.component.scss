@@ -1,6 +1,6 @@
 .cards {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .image{
@@ -9,10 +9,42 @@
     align-content: center;
     align-items: center;
     align-self: center;
+    
 }
 
-.wrap {
-    text-align: center;
-    align-self: center;
-    align-items: center;
+.image img{
+
+    width: 70%;
+    height: auto;
+}
+
+
+.wrap1 h2{
+
+    font-size: 45px;
+    color:red;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
+}
+
+.wrap1 p {
+
+    color: rgb(104, 109, 112);
+}
+
+.wrap2 h5{
+
+    color: rgb(59, 61, 62);
+    padding-top: 7em;
+}
+
+.wrap2{
+    line-height: 0%;
+}
+
+.wrap2 p {
+    font-size: 15px;
+    color: rgb(189, 194, 194);
+    
 }
